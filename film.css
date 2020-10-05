@@ -35,6 +35,11 @@ body {
     font-family: sans-serif;
 }
 
-.grey:nth-child(2){
-    color:green;
+/*.grey:nth-child(2){*/
+/*    color:green;*/
+/*}*/
+
+.grey{
+    font-size: 25px;
+    background-color: #c0adb6;
 }
