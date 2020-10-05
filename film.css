@@ -12,11 +12,13 @@ table{
 th{
     height: 50px;
     border: 1px solid white;
+    text-align: center;
 }
 
 td{
-    height: 100px;
+    height: 50px;
     border: 1px solid black;
+    padding: 10px;
 }
 
 .white{
@@ -27,4 +29,12 @@ thead{
     /*height: 100px;*/
     color: white;
     background-color: #444444;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.grey:nth-child(2){
+    color:green;
 }
