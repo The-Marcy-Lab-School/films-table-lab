@@ -1,4 +1,30 @@
-th{
+h1{
+    text-align: center;
+    color: #444444;
+}
+
+table{
     width: 80%;
-    background-color: red;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th{
+    height: 50px;
+    border: 1px solid white;
+}
+
+td{
+    height: 100px;
+    border: 1px solid black;
+}
+
+.white{
+    border: 1px solid white;
+}
+
+thead{
+    /*height: 100px;*/
+    color: white;
+    background-color: #444444;
 }
