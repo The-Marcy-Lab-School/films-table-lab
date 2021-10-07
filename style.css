@@ -2,6 +2,7 @@ table{
     border:1px solid black;
     width: 1000px;
     margin: 30px 0px;
+    margin: auto;
 }
 
 .tablehead{
@@ -15,7 +16,6 @@ table{
     background-color: lightgray;
 }
 
-
 .year {
     width:160px;
 }
@@ -24,3 +24,16 @@ table{
     padding: 12px
 }
 
+th {
+    font-size: 22px;
+    padding: 20px;
+}
+
+.film-name {
+    font-size: 20px;
+}
+
+caption {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
