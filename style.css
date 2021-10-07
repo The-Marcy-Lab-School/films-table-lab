@@ -1,0 +1,39 @@
+table{
+    border:1px solid black;
+    width: 1000px;
+    margin: 30px 0px;
+    margin: auto;
+}
+
+.tablehead{
+    border:1px solid white;
+    background-color: black;
+    color:white;
+}
+
+.tablerow{
+    border:1px solid black;
+    background-color: lightgray;
+}
+
+.year {
+    width:160px;
+}
+
+.text{
+    padding: 12px
+}
+
+th {
+    font-size: 22px;
+    padding: 20px;
+}
+
+.film-name {
+    font-size: 20px;
+}
+
+caption {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
