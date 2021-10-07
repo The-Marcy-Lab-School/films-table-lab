@@ -1,0 +1,25 @@
+h1 {
+    text-align: center;
+    font-family: Agenda-Light, sans-serif;
+}
+
+table{
+    border:solid thick black;
+    border-collapse: collapse;
+    font-family: Agenda-Light, sans-serif;
+    
+}
+
+th, td {
+    border: 1px solid #003366;
+    
+}
+
+.title {
+    background-color: black;
+    color: white;
+}
+.size{
+width:162px;
+height:104px;
+}
