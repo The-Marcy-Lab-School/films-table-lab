@@ -4,3 +4,20 @@
     padding:0;
     box-sizing: border-box
 }
+
+.synopsis{
+    border: solid 1px red;
+    display: block;
+}
+
+td{
+    display:block;
+}
+
+.Year{
+    
+}
+
+.Honor{
+    
+}
