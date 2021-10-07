@@ -17,9 +17,10 @@ table{
 
 
 .year {
-    width: 160px;
+    width:160px;
 }
 
-.text {
-    width: 840px;
+.text{
+    padding: 12px
 }
+
