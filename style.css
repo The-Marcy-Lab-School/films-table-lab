@@ -1,5 +1,7 @@
 table{
     border:1px solid black;
+    width: 1000px;
+    margin: 30px 0px;
 }
 
 .tablehead{
@@ -11,5 +13,13 @@ table{
 .tablerow{
     border:1px solid black;
     background-color: lightgray;
-    
+}
+
+
+.year {
+    width: 160px;
+}
+
+.text {
+    width: 840px;
 }
