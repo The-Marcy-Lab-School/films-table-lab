@@ -1,0 +1,116 @@
+body {background-color: #FFE5B4;}
+table {
+            border: 1px solid;
+            border-collapse: collapse;
+            margin: 30px 0px;
+            width: 1000px;
+        }
+
+        td, th {
+            border: 1px solid;
+            padding: 0 10px;
+            /*text-align: center;*/
+        }
+
+        td.synopsis{
+          font-size: 14px!important;
+          background-color: whitesmoke!important;
+        }
+
+        /* style one */
+        table.makeit_rwd_default {
+            margin: 0 auto;
+            border-collapse: collapse;
+            font-family: Agenda-Light, sans-serif;
+            font-weight: 100;
+            background: #333;
+            color: #fff;
+            text-rendering: optimizeLegibility;
+            border-radius: 5px;
+        }
+
+        table.makeit_rwd_default caption {
+            font-size: 2rem;
+            color: #444;
+            margin: 1rem;
+        }
+
+        table.makeit_rwd_default thead th {
+            font-weight: 600;
+        }
+
+        table.makeit_rwd_default thead th, table.makeit_rwd_default tbody td {
+            padding: .8rem;
+            font-size: 1.4rem;
+        }
+
+        table.makeit_rwd_default tbody td {
+            padding: .8rem;
+            font-size: 1.4rem;
+            color: #444;
+            background: #eee;
+        }
+
+        table.makeit_rwd_default tbody tr:not(:last-child) {
+            border-top: 1px solid #ddd;
+            border-bottom: 1px solid #ddd;
+        }
+
+        /* STYLE 2 */
+        table.makeit_rwd_default2 {
+            margin: 0 auto;
+            border-collapse: collapse;
+            font-family: Agenda-Light, sans-serif;
+            font-weight: 100;
+            background: #333;
+            color: #fff;
+            text-rendering: optimizeLegibility;
+            border-radius: 5px;
+        }
+
+        table.makeit_rwd_default2 caption {
+            font-size: 2rem;
+            color: #444;
+            margin: 1rem;
+        }
+
+        table.makeit_rwd_default2 thead th {
+            font-weight: 600;
+        }
+
+        table.makeit_rwd_default2 thead th, table.makeit_rwd_default2 tbody td {
+            padding: .8rem;
+            font-size: 1.4rem;
+        }
+
+        table.makeit_rwd_default2 tbody td {
+            padding: .8rem;
+            font-size: 1.4rem;
+            color: #444;
+            background: #eee;
+        }
+
+        table.makeit_rwd_default2 tbody tr:not(:last-child) {
+            border-top: 1px solid #ddd;
+            border-bottom: 1px solid #ddd;
+        }
+
+        @media screen and (max-width: 600px) {
+
+            table.makeit_rwd {
+                width: 100%;
+            }
+
+            table.makeit_rwd thead {
+                display: none;
+            }
+
+            table.makeit_rwd tbody td {
+                display: block;
+                padding: .6rem;
+            }
+
+            table.makeit_rwd tbody td span {
+                display: grid;
+            }
+        }
